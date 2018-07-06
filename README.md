@@ -15,4 +15,4 @@ longitude    latitude    depth     velocity    flag
 flag = 1 means the velocity is relatively reliable at the corresponding (lon, lat);
 flag = 0 means the velocity cannot be constrained by the data at this point.
 
-	
+Note that although velocity is provided at depths 0-80 km, only velocity <= 50 km is reliable.	
